@@ -1,0 +1,27 @@
+# Terraform State Files
+*.tfstate
+*.tfstate.backup
+
+# Local Terraform working directory
+.terraform/
+
+# Sensitive variable files
+*.tfvars
+*.auto.tfvars
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# SSH keys (Never upload these!)
+*.pem
